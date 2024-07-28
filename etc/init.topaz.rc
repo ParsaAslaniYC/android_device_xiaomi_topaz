@@ -1,10 +1,2 @@
 on property:ro.boot.hwc=CN
     setprop bluetooth.device.default_name "Redmi Note 12 4G"
-
-on property:ro.boot.product.hardware.sku=tapas
-    enable dex_hal_service
-
-on property:ro.boot.product.hardware.sku=topaz
-    enable dex_hal_service_topaz
-
-service dex_hal_service
