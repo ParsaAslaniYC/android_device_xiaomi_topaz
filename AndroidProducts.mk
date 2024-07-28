@@ -23,9 +23,9 @@ COMMON_LUNCH_CHOICES := \
     aosp_topaz-trunk_staging-userdebug \
     aosp_topaz-trunk_staging-user \
     aosp_topaz-trunk_staging-eng \
-    aosp_topaz_64-ap2a-userdebug \
-    aosp_topaz_64-ap2a-user \
-    aosp_topaz_64-ap2a-eng \
+    aosp_topaz64-ap2a-userdebug \
+    aosp_topaz64-ap2a-user \
+    aosp_topaz64-ap2a-eng \
     aosp_topaz_64bit_zygote-ap2a-userdebug \
     aosp_topaz_64bit_zygote-ap2a-user \
     aosp_topaz_64bit_zygote-ap2a-eng \
