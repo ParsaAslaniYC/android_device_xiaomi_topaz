@@ -22,5 +22,5 @@ IGNORE_PREFER32_ON_DEVICE := true
 
 $(call inherit-product, device/xiaomi/topaz/aosp_topaz.mk)
 
-PRODUCT_NAME := aosp_topaz_64_zygote
+PRODUCT_NAME := derp_topaz_64bit_zygote
 PRODUCT_MODEL := Redmi Note 12 4G
