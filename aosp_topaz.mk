@@ -24,7 +24,9 @@ $(call inherit-product, device/xiaomi/topaz/device.mk)
 
 # Inherit some common aosp stuff
 TARGET_BOOT_ANIMATION_RES := 1080
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+
+# topaz: dont deal with vendor for now
+#$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 # b/113232673 STOPSHIP deal with Qualcomm stuff later
 # PRODUCT_RESTRICT_VENDOR_FILES := all
