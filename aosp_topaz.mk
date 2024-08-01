@@ -62,5 +62,6 @@ endif
 ifneq (0,$(shell >/dev/null command cd device/xiaomi/sm6225-common; echo $$?))
   ifneq (0,$(shell >/dev/null command cd vendor/xiaomi/sm6225-common; echo $$?))
       $(error "BRUH MOMENT, BRO GET THE COMMON THINGS!")
+      endif
   $(error "Bruh moment for real, i dont know why god put sand instead of brain in your head, you have done vendor sm6225-common but not the one in device! brainrot")
 endif
