@@ -25,13 +25,12 @@ $(call inherit-product, device/xiaomi/topaz/device.mk)
 # Inherit some common aosp stuff
 TARGET_BOOT_ANIMATION_RES := 1080
 
-# topaz: dont deal with vendor for now
-#$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+$(call inherit-product, vendor/derp/config/common_full_phone.mk)
 
 # b/113232673 STOPSHIP deal with Qualcomm stuff later
 # PRODUCT_RESTRICT_VENDOR_FILES := all
 
-PRODUCT_NAME := aosp_topaz
+PRODUCT_NAME := derp_topaz
 PRODUCT_DEVICE := topaz
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := Redmi
