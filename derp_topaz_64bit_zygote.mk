@@ -20,7 +20,7 @@ ZYGOTE_FORCE_64 := true
 # Force any prefer32 targets to be compiled as 64 bit.
 IGNORE_PREFER32_ON_DEVICE := true
 
-$(call inherit-product, device/xiaomi/topaz/aosp_topaz.mk)
+$(call inherit-product, device/xiaomi/topaz/derp_topaz.mk)
 
 PRODUCT_NAME := derp_topaz_64bit_zygote
 PRODUCT_MODEL := Redmi Note 12 4G
