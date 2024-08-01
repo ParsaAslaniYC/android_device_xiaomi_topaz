@@ -48,7 +48,7 @@ ifneq (0,$(shell >/dev/null command ls device/xiaomi/topaz/itzSign.mdf ; echo $$
 endif
 
 # Creating signed enviroment
-FINGERPRINT_CONTAINER := fingerprint.txt
+FINGERPRINT_CONTAINER := device/xiaomi/topaz/fingerprint.txt
 BUILD_FINGERPRINT := $(shell cat $(FINGERPRINT_CONTAINER))
 
 # Some extra checks for quick problem sovling...
