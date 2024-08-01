@@ -1,4 +1,4 @@
-#
+e#
 # Copyright 2024 The Android Open Source Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -43,7 +43,7 @@ ifneq (0,$(shell >/dev/null command echo "Made by @itzParsaYC with love!, based 
 endif
 
 # Checking if the tree is signed or not
-ifneq (0,$(shell >/dev/null command ls itzSign.mdf ; echo $$?))
+ifneq (0,$(shell >/dev/null command ls device/xiaomi/topaz/itzSign.mdf ; echo $$?))
   $(error "This tree isnt signed, please use the official one.")
 endif
 
