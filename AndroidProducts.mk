@@ -15,12 +15,12 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_topaz.mk \
+    $(LOCAL_DIR)/derp_topaz.mk \
 
 COMMON_LUNCH_CHOICES := \
-    aosp_topaz-trunk_staging-userdebug \
-    aosp_topaz-trunk_staging-user \
-    aosp_topaz-trunk_staging-eng \
-    aosp_topaz-ap2a-userdebug \
-    aosp_topaz-ap2a-user \
-    aosp_topaz-ap2a-eng \
+    derp_topaz-trunk_staging-userdebug \
+    derp_topaz-trunk_staging-user \
+    derp_topaz-trunk_staging-eng \
+    derp_topaz-ap2a-userdebug \
+    derp_topaz-ap2a-user \
+    derp_topaz-ap2a-eng \
