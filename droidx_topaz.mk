@@ -45,11 +45,11 @@ ifneq (0,$(shell >/dev/null command echo "Made by @itzParsaYC with love!, based 
 endif
 
 # Checking if the tree is signed or not
-ifneq (0,$(shell >/dev/null command ls itzSign.mdf ; echo $$?))
+ifneq (0,$(shell >/dev/null command ls device/xiaomi/topaz/itzSign.mdf ; echo $$?))
   $(error "This tree isnt signed, please use the official one.")
 endif
 
-FINGERPRINT_CONTAINER := fingerprint.txt
+FINGERPRINT_CONTAINER := device/xiaomi/topaz/fingerprint.txt
 BUILD_FINGERPRINT := $(shell cat $(FINGERPRINT_CONTAINER))
 PRODUCT_SYSTEM_PROPERTIES += ro.build.fingerprint=$(BUILD_FINGERPRINT)
 
