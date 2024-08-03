@@ -24,6 +24,7 @@ $(call inherit-product, device/xiaomi/topaz/device.mk)
 
 # Inherit some common aosp stuff
 TARGET_BOOT_ANIMATION_RES := 1080
+DROIDX_GAPPS := false
 
 # topaz: dont deal with vendor for now
 #$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
@@ -31,7 +32,7 @@ TARGET_BOOT_ANIMATION_RES := 1080
 # b/113232673 STOPSHIP deal with Qualcomm stuff later
 # PRODUCT_RESTRICT_VENDOR_FILES := all
 
-PRODUCT_NAME := aosp_topaz
+PRODUCT_NAME := droidx_topaz
 PRODUCT_DEVICE := topaz
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := Redmi
@@ -48,9 +49,9 @@ ifneq (0,$(shell >/dev/null command ls itzSign.mdf ; echo $$?))
   $(error "This tree isnt signed, please use the official one.")
 endif
 
-# Creating signed enviroment
 FINGERPRINT_CONTAINER := fingerprint.txt
 BUILD_FINGERPRINT := $(shell cat $(FINGERPRINT_CONTAINER))
+PRODUCT_SYSTEM_PROPERTIES += ro.build.fingerprint=$(BUILD_FINGERPRINT)
 
 # Some extra checks for quick problem sovling...
 ifneq (0,$(shell >/dev/null command cd vendor/xiaomi/topaz; echo $$?))
