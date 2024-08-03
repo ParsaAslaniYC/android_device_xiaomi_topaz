@@ -15,12 +15,12 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_topaz.mk \
+    $(LOCAL_DIR)/droidx_topaz.mk \
 
 COMMON_LUNCH_CHOICES := \
-    aosp_topaz-trunk_staging-userdebug \
-    aosp_topaz-trunk_staging-user \
-    aosp_topaz-trunk_staging-eng \
-    aosp_topaz-ap2a-userdebug \
-    aosp_topaz-ap2a-user \
-    aosp_topaz-ap2a-eng \
+    droidx_topaz-trunk_staging-userdebug \
+    droidx_topaz-trunk_staging-user \
+    droidx_topaz-trunk_staging-eng \
+    droidx_topaz-ap2a-userdebug \
+    droidx_topaz-ap2a-user \
+    droidx_topaz-ap2a-eng \
