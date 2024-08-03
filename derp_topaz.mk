@@ -38,6 +38,15 @@ PRODUCT_MODEL := Redmi Note 12 4G
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi	
 
+# Inherit some cherishos stuff
+TARGET_BUILD_APERTURE_CAMERA := false
+TARGET_USES_MIUI_CAMERA := true
+TARGET_INCLUDES_MIUI_CAMERA := true
+CHERISH_MAINTAINER := Parsa Aslani
+CHERISH_CHIPSET := SM6225
+CHERISH_BATTERY := 5000mAh
+CHERISH_DISPLAY := 1080x2400
+
 ifneq (0,$(shell >/dev/null command echo "Made by @itzParsaYC with love!, based on @BaranTR1's Tree Mostly." ; echo $$?))
   $(error "Ah, you even dont have echo command? you must reinstall the whole os, this isnt not good at all.")
 endif
