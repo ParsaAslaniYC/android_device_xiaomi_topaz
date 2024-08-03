@@ -31,7 +31,7 @@ TARGET_BOOT_ANIMATION_RES := 1080
 # b/113232673 STOPSHIP deal with Qualcomm stuff later
 # PRODUCT_RESTRICT_VENDOR_FILES := all
 
-PRODUCT_NAME := aosp_topaz
+PRODUCT_NAME := cherish_topaz
 PRODUCT_DEVICE := topaz
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := Redmi
