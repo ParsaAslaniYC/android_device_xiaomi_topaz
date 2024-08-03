@@ -15,12 +15,12 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_topaz.mk \
+    $(LOCAL_DIR)/cherish_topaz.mk \
 
 COMMON_LUNCH_CHOICES := \
-    aosp_topaz-trunk_staging-userdebug \
-    aosp_topaz-trunk_staging-user \
-    aosp_topaz-trunk_staging-eng \
-    aosp_topaz-ap2a-userdebug \
-    aosp_topaz-ap2a-user \
-    aosp_topaz-ap2a-eng \
+    cherish_topaz-trunk_staging-userdebug \
+    cherish_topaz-trunk_staging-user \
+    cherish_topaz-trunk_staging-eng \
+    cherish_topaz-ap2a-userdebug \
+    cherish_topaz-ap2a-user \
+    cherish_topaz-ap2a-eng \
